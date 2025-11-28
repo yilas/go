@@ -18,4 +18,7 @@ func main() {
 	fmt.Println(1.0 / float64(byt))
 	fmt.Println(min64)
 	fmt.Println(max64)
+
+	tiny := math.SmallestNonzeroFloat64
+	fmt.Println(tiny)
 }
